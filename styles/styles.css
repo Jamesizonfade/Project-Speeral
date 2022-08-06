@@ -1,0 +1,11 @@
+.logo {
+font-family: 'Rubik', sans-serif;
+font-weight: 500;
+font-size: 2rem;
+color: #002B5B;
+}
+
+
+.nav-items{
+    float: right;
+}
