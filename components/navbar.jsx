@@ -1,16 +1,20 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import React from "react"
+import{ FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import {faMagnifyingGlass} from "@fortawesome/free-solid-svg-icons"
 
 function Navbar () {
-  return <nav className=' p-6 '>
+  return <nav className='nav-bar p-6 '>
   <span className='logo' >SPEERAL</span>
   <div className="nav-items flex">
-  <a className='ml-8 text-lg'>Community</a>
-  <a className='ml-8 text-lg'>Products</a>
-  <a className='ml-8 text-lg'>Connect</a>
-  <a className='ml-8 text-lg'>About Us</a>
+  <a className='nav-link ml-8 mt-3 text-lg'>Community</a>
+  <a className='nav-link ml-8 mt-3 text-lg'>Connect</a>
+  <a href="#features" className='nav-link ml-8 mt-3 text-lg'>About Us</a>
+  <button className='signup-btn ml-10'>Sign Up</button>
+  <search className="search-item ml-5">
+   <FontAwesomeIcon className="nav-icon " icon={faMagnifyingGlass} /> 
+   <input id='nav-search' type="search" placeholder='IDEAS' /> 
+  </search>
+ 
   </div>
 
   </nav>

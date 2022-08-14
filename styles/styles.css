@@ -1,11 +1,189 @@
+textarea, input { outline: none; }
+
+.nav-bar{
+    background-color: #F7F7F7;
+}
+
 .logo {
 font-family: 'Rubik', sans-serif;
 font-weight: 500;
+margin-left: 4rem;
 font-size: 2rem;
-color: #002B5B;
+color: #256D85;
 }
 
 
 .nav-items{
     float: right;
+    font-family: 'Open Sans', sans-serif;
+    color: #256D85;
+    text-transform: uppercase;
+}
+
+.nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+}
+
+
+.signup-btn{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #256D85;
+    color: #F7F7F7;
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+    width: 8rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.signup-btn:hover{
+    background-color: #F7F7F7;
+    border: 2px solid #256D85;
+    color: #256D85;
+    transition-delay: 0.2s;
+    /* border-radius: 0.8rem; */
+}
+
+.search-item{
+    position: relative;
+}
+
+
+#nav-search{
+    font-size: 1rem;
+    padding: 0.5rem 0 0.5rem 2rem;
+    width: 8rem;
+    height: 3rem;
+    border: 2px solid #256D85;
+    border-radius: 0.2rem;
+    background-color: #F7F7F7;
+}
+
+.nav-icon{
+    position: absolute;
+    top: 1rem;
+    margin-left: 0.7rem;
+}
+
+
+
+.intro-text{
+   font-family: 'Montserrat', sans-serif;
+   background-color: #F7F7F7;
+   height: 600px;
+   width: 50%;
+   padding: 10rem 2rem 10rem 5rem;
+   /* text-align: center; */
+}
+
+.intro-text h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 5rem;
+    font-weight: 800;
+    color: #256D85;
+}
+
+#intro-img{
+    background-image: url('https://res.cloudinary.com/dgsdjrpjz/image/upload/v1659864093/my%20logos/Speeral/pexels-andrea-piacquadio-3754686_g4wwka.jpg');
+    height: auto;
+    width: 50%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#intro-img:hover{
+    width: 52%;
+    transition: 2s;
+}
+
+.intro-btn{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #256D85;
+    color: #F7F7F7;
+    padding: 0.8rem 1rem;
+    border-radius: 0.2rem;
+    width: 10rem;
+    font-size: 1.3rem; 
+}
+
+.intro-btn:hover{
+    background-color: #F7F7F7;
+    border: 2px solid #256D85;
+    color: #256D85;
+    transition-delay: 0.2s;
+}
+
+#challenges{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#features-img{
+    background-image: url("https://res.cloudinary.com/dgsdjrpjz/image/upload/v1660079210/my%20logos/Speeral/pexels-george-becker-131616_eepuif.jpg");
+    height: 700px;
+    width: 55%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#features-img:hover{
+    background-image: url("https://res.cloudinary.com/dgsdjrpjz/image/upload/v1660082164/my%20logos/Speeral/pexels-george-becker-131616-2_y0hwje.jpg");
+    width: 57%;
+    opacity: 10;
+    transition: 2s;
+}
+
+
+.features-content{
+    background-color: #fff;
+    color: #256D85;
+    padding: 5rem;
+    width: 40%;
+}
+
+.features-content h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #256D85;
+}
+
+.features-content p{
+    font-family: 'Montserrat', sans-serif;
+    color: #1e2f35;
+}
+
+.features-btn{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #256D85;
+    color: #F7F7F7;
+    padding: 0.8rem 1rem;
+    border-radius: 0.2rem;
+    width: 12rem;
+    font-size: 1.3rem;  
+}
+
+.features-btn:hover{
+    background-color: #F7F7F7;
+    border: 2px solid #256D85;
+    color: #256D85;
+    transition-delay: 0.2s; 
+}
+
+#build{
+    padding: 10rem;
+}
+
+#build div {
+    margin: 2rem;
+}
+
+.build-img{
+    height: 500px;
+}
+
+#capture:hover{
+    filter: grayscale(90%);
+    transition: 4s;
 }
